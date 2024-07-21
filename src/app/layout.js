@@ -1,6 +1,5 @@
 import {Box, CssBaseline} from "@mui/material";
 import {AppRouterCacheProvider} from "@mui/material-nextjs/v14-appRouter";
-import {ThemeProvider} from "@mui/material/styles";
 
 export default function RootLayout({ children }) {
   // This is {} when "type": "module" in package.json, but [Function (anonymous)] otherwise
